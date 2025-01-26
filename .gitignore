@@ -1,0 +1,30 @@
+Commande ECHO activ�e.
+
+# Ignore compiled Java files
+*.class
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+
+# Ignore build and dependency directories
+target/
+build/
+out/
+bin/
+lib/
+dist/
+
+# Ignore log files
+*.log
+
+# Ignore environment-specific files
+.env
+*.properties
+
+# Ignore the database dump file (if you don't want to include it)
+# database_dump.sql
